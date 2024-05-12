@@ -10,3 +10,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.custom-light-gray-bg {
+    background-color: #f2f2f2; /* Light gray color */
+    /* You can adjust the color code to your preferred shade of gray */
+}
